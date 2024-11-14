@@ -12,7 +12,7 @@ const LatestNews = () => {
     .then(data=>setAllNews(data.data))
   },[])
 
-  console.log(allNews)
+  // console.log(allNews)
 
 
 
