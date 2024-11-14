@@ -1,1 +1,2 @@
-Array(5).fill(0).map((value,index)=>console.log(value,index+1))
+const fruits = ['banan','orange','apple','mango'];
+console.log(fruits.slice(1,3))

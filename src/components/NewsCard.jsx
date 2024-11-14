@@ -49,7 +49,7 @@ const NewsCard = ({news={}}) => {
             <p className='text-gray-700 mb-2 mt-2'>
                 {details.slice(0,200)}... 
             </p>
-            <Link className='underline text-orange-400' to='/newsDetails'>see more</Link>
+            <Link to={`/news/${news._id}`} className='underline text-orange-400' >see more</Link>
         </div>
         {/* footer */}
        <div className='px-5 py-4 flex justify-between items-center'>
